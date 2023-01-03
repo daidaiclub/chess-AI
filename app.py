@@ -2,7 +2,7 @@ from flask import Flask, request
 from stockfish import Stockfish
 
 app = Flask(__name__)
-stockfish = Stockfish('./stockfish.exe')
+stockfish = Stockfish('./stockfish_10_x64')
 
 @app.route('/')
 def hello():
