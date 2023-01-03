@@ -10,3 +10,12 @@ $ flask run
 ```
 
 --port = 5000
+
+## API
+
+### Get Best Move
+
+`POST /ai`
+
+form-data: fen  
+response: [best move]
