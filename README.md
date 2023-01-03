@@ -17,5 +17,5 @@ $ flask run
 
 `POST /ai`
 
-form-data: fen
+form-data: fen  
 response: [best move]
